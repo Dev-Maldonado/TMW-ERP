@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(137, 43, 226, 0.301);
+}
+
+nav{
+    display: flex;
+    margin: 5px;
+    justify-content: space-around;
+    background-color: blueviolet;
+    border-radius: 15px;
+    width: 100%;
+}
+
+nav img{
+    background-color: blueviolet;
+    width: 50px;
+    border-radius: 50%;
+}
+
+nav p {
+    color: azure;
+}
+
+nav p:hover{
+    font-weight: bold;
+    cursor: pointer;
+    scale: 120%;
+}
+
+section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.resource{
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.164);
+}
+.resource img {
+    width: 100px;
+}
+
+.resource:hover{
+    background-color: blueviolet;
+    border: 5px solid rgba(0, 0, 0, 0.164);
+    color: white;
+    scale: 125%;
+    cursor: pointer;
+}
+main{
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main h2{
+    font-style: italic;
+    font-weight: 1;
+}
+
+table.tftable {
+    font-size:12px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #a9a9a9;
+    border-collapse: collapse;
+    width:80vw;
+
+}
+table.tftable th {
+    font-size:12px;
+    color: white;
+    background-color:blueviolet;
+    border-width: 1px;
+    padding: 8px;
+    border: 2px solid rgb(161, 92, 224);
+    text-align:center;
+}
+table.tftable tr {
+    background-color: rgba(137, 43, 226, 0.301);
+}
+table.tftable td {
+    font-size:12px;
+    border-width: 1px;
+    padding: 8px;
+    border: 2px solid rgb(161, 92, 224);
+}
