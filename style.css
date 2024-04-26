@@ -40,7 +40,7 @@ section{
     width: 150px;
     border-radius: 50%;
     text-align: center;
-    border: 2px solid rgba(0, 0, 0, 0.164);
+    border: 2px solid rgba(0, 0, 0, 0);
 }
 .resource img {
     width: 100px;
