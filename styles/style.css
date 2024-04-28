@@ -90,10 +90,10 @@ table.tftable th {
     background-color:blueviolet;
     border-width: 1px;
     padding: 8px;
-    border: 2px solid rgb(161, 92, 224);
+    border: 2px solid #a15ce0;
 }
 table.tftable tr {
-    background-color: rgba(137, 43, 226, 0.301);
+    background-color: hsla(271, 76%, 53%, 0.302);
 }
 
 table.tftable tr.focus:hover {
