@@ -12,7 +12,7 @@ a{
 
 nav{
     display: flex;
-    margin: 5px;
+    margin: 5px 0 40px;
     justify-content: space-around;
     background-color: #8a2be2;
     border-radius: 15px;
@@ -37,6 +37,12 @@ nav p:hover{
     scale: 120%;
     rotate: 2deg;
 }
+
+select{
+    background-color: #892be24d;
+    border-radius: 8px;
+}
+
 
 .tabela {
     border:2px double #892be24d;
