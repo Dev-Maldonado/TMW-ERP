@@ -12,7 +12,7 @@ a{
 
 nav{
     display: flex;
-    margin: 5px 0 40px;
+    margin: 5px 0 5px;
     justify-content: space-around;
     background-color: #8a2be2;
     border-radius: 15px;
@@ -55,11 +55,17 @@ select{
 .tabela th {
     border:2px double #892be24d;
     padding:18px;
-    background:#a15ce0;
+    background:#a05ce0;
 }
 .tabela td {
     border:2px double #892be24d;
     text-align:center;
     padding:18px;
     background:#892be24d;
+}
+
+td.hour,th.hour{
+    background:#4d098d63;
+    color: white;
+    border:5px double #ffffff72;
 }
